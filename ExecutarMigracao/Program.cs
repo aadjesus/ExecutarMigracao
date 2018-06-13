@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace ExecutarMigracao
+﻿namespace ExecutarMigracao
 {
     class Program
     {
@@ -15,6 +13,7 @@ namespace ExecutarMigracao
                 return;
 
             migracao.Executar();
+
         }
     }
 }
