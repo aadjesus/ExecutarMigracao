@@ -53,6 +53,7 @@ namespace ExecutarMigracao
         {
             _processo.Executar();
             Console.WriteLine("FIM");
+
         }
     }
 }
