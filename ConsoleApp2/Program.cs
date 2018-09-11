@@ -89,7 +89,7 @@ namespace ConsoleApp2
 
         private void ExecutarMigration(string metodo, object parametro)
         {
-            using (var processor = factory.Create("Data Source=ORC11G;Persist Security Info=True;User ID=EscalaTeste2;Password=EscalaTeste2", announcer, options))
+            using (var processor = factory.Create("Data Source=ORC11G;Persist Security Info=True;User ID=EscalaTeste3;Password=EscalaTeste3", announcer, options))
             {
                 var runner = new MigrationRunner(assembly, migrationContext, processor);
                 int ExecutedMigrations = 0;

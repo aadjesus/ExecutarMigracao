@@ -33,9 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="BgmRodotec.Framework.Database.Lib.Migrations, Version=0.1.52.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\..\..\BgmRodotec\Globus7\BgmRodotec.Escala\packages\BgmRodotec.Framework.Database.Lib.Migrations.0.1.52\lib\net461\BgmRodotec.Framework.Database.Lib.Migrations.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="BgmRodotec.Escala.Infra.Database, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\BgmRodotec\Globus7\BgmRodotec.Escala\src\BgmRodotec.Escala.Infra\Database\BgmRodotec.Escala.Infra.Database\bin\Debug\BgmRodotec.Escala.Infra.Database.dll</HintPath>
     </Reference>
     <Reference Include="FluentMigrator, Version=1.6.2.0, Culture=neutral, PublicKeyToken=aacfc7de5acabf05, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\BgmRodotec\Globus7\BgmRodotec.Escala\packages\FluentMigrator.1.6.2\lib\40\FluentMigrator.dll</HintPath>
@@ -83,12 +83,6 @@
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Connected Services\" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\..\..\BgmRodotec\Globus7\BgmRodotec.Escala\src\BgmRodotec.Escala.Infra\Database\BgmRodotec.Escala.Infra.Database\BgmRodotec.Escala.Infra.Database.csproj">
-      <Project>{ed7d152c-a118-4b12-bfab-09266cc103a6}</Project>
-      <Name>BgmRodotec.Escala.Infra.Database</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
